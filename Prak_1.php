@@ -52,11 +52,11 @@
         <tbody>
             <?php foreach($arr_DM as $arrray_mhs): ?>
                 <tr>
-                    <td><?php= $arrray_mhs['nama'] ?></td>
-                    <td><?php= $arrray_mhs['nim'] ?></td>
-                    <td><?php= $arrray_mhs['umur'] ?></td>                
+                    <td><?php echo $arrray_mhs['nama'] ?></td>
+                    <td><?php echo $arrray_mhs['nim'] ?></td>
+                    <td><?php echo $arrray_mhs['umur'] ?></td>                
                 </tr>
-            <?php endforeach;?>
+            <?php endforeach; ?>
         </tbody>
     </table>
 
