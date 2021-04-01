@@ -65,7 +65,7 @@
     <ul>
         <!-- <li>Luas Sisi : <?= $luas ?></li>
         <li>Volume : <?= $volume ?></li> -->
-        <li>Luas Selimut : <?php echo $tabung->hitungluas()?></li>
+        <li>Luas Selimut : <?php echo $tabung->getluasselimut()?></li>
     </ul>
 </body>
 </html>

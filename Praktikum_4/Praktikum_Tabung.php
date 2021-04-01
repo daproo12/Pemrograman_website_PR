@@ -8,14 +8,16 @@
 
 		public function setDiameter($value){
 			$this->diameter = $value;
-			$this-> r = $this->diameter / 2;
+			$this->r = $this->diameter / 2;
 		}
 		public function setTinggi($value){
 			$this->tinggi = $value;
 		}
-		
-		public function hitungluas($value){
-			return $this->luas_selimut = 3.14*$this->diameter * $this->tinggi;
+		// public function hitungluas(){
+		// 	$this->luas_selimut = 3.14 * $this->diameter * $this->tinggi;
+		// }
+		public function getluasselimut(){
+			return $this->luas_selimut = 3.14 * $this->diameter * $this->tinggi;
 		}
 	}
 
